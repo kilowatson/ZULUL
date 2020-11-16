@@ -1,0 +1,160 @@
+speak$https://media.kanjialive.com/kanji_strokes/wa-hana(su)_13.svg$話
+write, book$https://media.kanjialive.com/kanji_strokes/sho-ka(ku)_10.svg$書
+autumn$https://media.kanjialive.com/kanji_strokes/aki_9.svg$秋
+before, front$https://media.kanjialive.com/kanji_strokes/mae_9.svg$前
+electricity$https://media.kanjialive.com/kanji_strokes/den(wa)_13.svg$電
+meet, society$https://media.kanjialive.com/kanji_strokes/kai-a(u)_6.svg$会
+tea$https://media.kanjialive.com/kanji_strokes/cha_9.svg$茶
+new$https://media.kanjialive.com/kanji_strokes/atara(shii)_13.svg$新
+teach, religion$https://media.kanjialive.com/kanji_strokes/oshi(eru)_11.svg$教
+black$https://media.kanjialive.com/kanji_strokes/kuro_11.svg$黒
+body, form$https://media.kanjialive.com/kanji_strokes/karada_7.svg$体
+cut$https://media.kanjialive.com/kanji_strokes/setsu-ki(ru)_4.svg$切
+heart$https://media.kanjialive.com/kanji_strokes/kokoro_4.svg$心
+numerical order, watch$https://media.kanjialive.com/kanji_strokes/ban(gou)_12.svg$番
+room$https://media.kanjialive.com/kanji_strokes/shitsu-muro_9.svg$室
+run$https://media.kanjialive.com/kanji_strokes/sou-hashi(ru)_7.svg$走
+company, society$https://media.kanjialive.com/kanji_strokes/yashiro_7.svg$社
+noon$https://media.kanjialive.com/kanji_strokes/(shou)go_4.svg$午
+interval, between$https://media.kanjialive.com/kanji_strokes/aida_12.svg$間
+plain, original$https://media.kanjialive.com/kanji_strokes/gen-hara_10.svg$原
+way, street, road$https://media.kanjialive.com/kanji_strokes/dou-michi_12.svg$道
+divide, part, minute$https://media.kanjialive.com/kanji_strokes/fun-wa(keru)_4.svg$分
+manufacture, construction$https://media.kanjialive.com/kanji_strokes/ku(fuu)_3.svg$工
+fine weather, clear up$https://media.kanjialive.com/kanji_strokes/sei-ha(reru)_12.svg$晴
+walk$https://media.kanjialive.com/kanji_strokes/aru(ku)_8.svg$歩
+song$https://media.kanjialive.com/kanji_strokes/ka-uta_14.svg$歌
+active, live$https://media.kanjialive.com/kanji_strokes/(sei)katsu_9.svg$活
+think$https://media.kanjialive.com/kanji_strokes/kanga(e)_6.svg$考
+plan, compute, measure$https://media.kanjialive.com/kanji_strokes/kei-haka(ru)_9.svg$計
+outside$https://media.kanjialive.com/kanji_strokes/soto_5.svg$外
+wind, manner$https://media.kanjialive.com/kanji_strokes/kaze_9.svg$風
+answer$https://media.kanjialive.com/kanji_strokes/tou-kota(e)_12.svg$答
+day of the week$https://media.kanjialive.com/kanji_strokes/you(bi)_18.svg$曜
+point$https://media.kanjialive.com/kanji_strokes/ten(suu)_9.svg$点
+number, count$https://media.kanjialive.com/kanji_strokes/kazo(eru)_13.svg$数
+return$https://media.kanjialive.com/kanji_strokes/ki-kae(ru)_10.svg$帰
+near, recent$https://media.kanjialive.com/kanji_strokes/chika(ku)_7.svg$近
+subject of study$https://media.kanjialive.com/kanji_strokes/(nai)ka_9.svg$科
+voice$https://media.kanjialive.com/kanji_strokes/koe_7.svg$声
+father$https://media.kanjialive.com/kanji_strokes/fu-chichi_4.svg$父
+mother$https://media.kanjialive.com/kanji_strokes/haha_5.svg$母
+strong$https://media.kanjialive.com/kanji_strokes/tsuyo(i)_11.svg$強
+turn round, time$https://media.kanjialive.com/kanji_strokes/kai-mawa(ru)_6.svg$回
+write down$https://media.kanjialive.com/kanji_strokes/ki-shiru(su)_10.svg$記
+talent, counter for age$https://media.kanjialive.com/kanji_strokes/(nan)sai_3.svg$才
+public, official$https://media.kanjialive.com/kanji_strokes/ooyake_4.svg$公
+horse$https://media.kanjialive.com/kanji_strokes/uma_10.svg$馬
+stand, counter for machinery$https://media.kanjialive.com/kanji_strokes/dai(za)_5.svg$台
+head, neck, leader$https://media.kanjialive.com/kanji_strokes/shu-kubi_9.svg$首
+bird, fowl, poultry$https://media.kanjialive.com/kanji_strokes/(haku)chou_11.svg$鳥
+language, word, tell$https://media.kanjialive.com/kanji_strokes/kata(ru)_14.svg$語
+capital$https://media.kanjialive.com/kanji_strokes/kyou(to)_8.svg$京
+cloud$https://media.kanjialive.com/kanji_strokes/kumo_12.svg$雲
+cry, sound, ring, sing, howl$https://media.kanjialive.com/kanji_strokes/mei-na(ru)_14.svg$鳴
+fish$https://media.kanjialive.com/kanji_strokes/uo_11.svg$魚
+door, household$https://media.kanjialive.com/kanji_strokes/ko-to_4.svg$戸
+yellow$https://media.kanjialive.com/kanji_strokes/ki(iro)_11.svg$黄
+valley$https://media.kanjialive.com/kanji_strokes/tani_7.svg$谷
+slender, minute, narrow, fine, detailed$https://media.kanjialive.com/kanji_strokes/hoso(i)_11.svg$細
+arrow$https://media.kanjialive.com/kanji_strokes/shi-ya_5.svg$矢
+buddhist temple$https://media.kanjialive.com/kanji_strokes/tera_6.svg$寺
+star$https://media.kanjialive.com/kanji_strokes/hoshi_9.svg$星
+parent, relatives, intimate$https://media.kanjialive.com/kanji_strokes/shita(shii)_16.svg$親
+ship, boat, vessel$https://media.kanjialive.com/kanji_strokes/sen-fune_11.svg$船
+pond$https://media.kanjialive.com/kanji_strokes/ike_6.svg$池
+sword$https://media.kanjialive.com/kanji_strokes/katana_2.svg$刀
+wheat$https://media.kanjialive.com/kanji_strokes/mugi_7.svg$麦
+rice, America$https://media.kanjialive.com/kanji_strokes/kome_6.svg$米
+countryside, league, hometown, village, town$https://media.kanjialive.com/kanji_strokes/ri-sato_7.svg$里
+north$https://media.kanjialive.com/kanji_strokes/kita_5.svg$北
+old$https://media.kanjialive.com/kanji_strokes/furu(i)_5.svg$古
+west$https://media.kanjialive.com/kanji_strokes/nishi_6.svg$西
+what, how many$https://media.kanjialive.com/kanji_strokes/nani_7.svg$何
+friend$https://media.kanjialive.com/kanji_strokes/yuu-tomo_4.svg$友
+paper$https://media.kanjialive.com/kanji_strokes/shi-kami_10.svg$紙
+snow$https://media.kanjialive.com/kanji_strokes/setsu-yuki_11.svg$雪
+present, hit$https://media.kanjialive.com/kanji_strokes/a(taru)_6.svg$当
+know$https://media.kanjialive.com/kanji_strokes/shi(ru)_8.svg$知
+after, back$https://media.kanjialive.com/kanji_strokes/ushi(ro)_9.svg$後
+think$https://media.kanjialive.com/kanji_strokes/shi-omo(u)_9.svg$思
+night$https://media.kanjialive.com/kanji_strokes/yoru_8.svg$夜
+picture$https://media.kanjialive.com/kanji_strokes/(ei)ga_8.svg$画
+straight, fix, repair$https://media.kanjialive.com/kanji_strokes/choku-nao(ru)_8.svg$直
+draw, pull$https://media.kanjialive.com/kanji_strokes/in-hi(ku)_4.svg$引
+hear, listen, ask$https://media.kanjialive.com/kanji_strokes/bun-ki(ku)_14.svg$聞
+field$https://media.kanjialive.com/kanji_strokes/ya-no_11.svg$野
+high$https://media.kanjialive.com/kanji_strokes/taka(i)_10.svg$高
+long, chief$https://media.kanjialive.com/kanji_strokes/chou-naga(i)_8.svg$長
+pleasure, comfortable, music$https://media.kanjialive.com/kanji_strokes/tano(shii)_13.svg$楽
+many$https://media.kanjialive.com/kanji_strokes/ta-oo(i)_6.svg$多
+great, thick$https://media.kanjialive.com/kanji_strokes/futo(i)_4.svg$太
+color$https://media.kanjialive.com/kanji_strokes/shoku-iro_6.svg$色
+stop$https://media.kanjialive.com/kanji_strokes/shi-to(maru)_4.svg$止
+distant, far$https://media.kanjialive.com/kanji_strokes/too(i)_13.svg$遠
+direction, way, square$https://media.kanjialive.com/kanji_strokes/hou-kata_4.svg$方
+origin$https://media.kanjialive.com/kanji_strokes/gen-moto_4.svg$元
+head$https://media.kanjialive.com/kanji_strokes/atama_16.svg$頭
+drawing$https://media.kanjialive.com/kanji_strokes/zu-haka(ru)_7.svg$図
+little$https://media.kanjialive.com/kanji_strokes/suko(shi)_4.svg$少
+self$https://media.kanjialive.com/kanji_strokes/mizuka(ra)_6.svg$自
+reason, basic principle$https://media.kanjialive.com/kanji_strokes/ri(yuu)_11.svg$理
+say, speech$https://media.kanjialive.com/kanji_strokes/gen-i(u)_7.svg$言
+country$https://media.kanjialive.com/kanji_strokes/kuni_8.svg$国
+wide$https://media.kanjialive.com/kanji_strokes/kou-hiro(i)_5.svg$広
+same$https://media.kanjialive.com/kanji_strokes/ona(ji)_6.svg$同
+summer$https://media.kanjialive.com/kanji_strokes/natsu_10.svg$夏
+spring$https://media.kanjialive.com/kanji_strokes/haru_9.svg$春
+intercourse, interchange$https://media.kanjialive.com/kanji_strokes/maji(waru)_6.svg$交
+time$https://media.kanjialive.com/kanji_strokes/ji-toki_10.svg$時
+pass, communicate, commute$https://media.kanjialive.com/kanji_strokes/too(ru)_10.svg$通
+winter$https://media.kanjialive.com/kanji_strokes/fuyu_5.svg$冬
+employ, things to do$https://media.kanjialive.com/kanji_strokes/mochi(iru)_5.svg$用
+inside$https://media.kanjialive.com/kanji_strokes/nai-uchi_4.svg$内
+half$https://media.kanjialive.com/kanji_strokes/han-naka(ba)_5.svg$半
+ground, place, base, earth, land$https://media.kanjialive.com/kanji_strokes/chi(kyuu)_6.svg$地
+angle, horn, corner$https://media.kanjialive.com/kanji_strokes/tsuno_7.svg$角
+cattle, cow, ox$https://media.kanjialive.com/kanji_strokes/gyuu-ushi_4.svg$牛
+shop, store$https://media.kanjialive.com/kanji_strokes/mise_8.svg$店
+combine, fit, match$https://media.kanjialive.com/kanji_strokes/gou-a(u)_6.svg$合
+present, this$https://media.kanjialive.com/kanji_strokes/ima_4.svg$今
+sea, ocean$https://media.kanjialive.com/kanji_strokes/kai-umi_9.svg$海
+face$https://media.kanjialive.com/kanji_strokes/kao_18.svg$顔
+city, market$https://media.kanjialive.com/kanji_strokes/shi-ichi_5.svg$市
+place$https://media.kanjialive.com/kanji_strokes/jou-ba_12.svg$場
+go, act, line$https://media.kanjialive.com/kanji_strokes/i(ku)-gyou_6.svg$行
+house, family$https://media.kanjialive.com/kanji_strokes/ie_10.svg$家
+older brother$https://media.kanjialive.com/kanji_strokes/ani_5.svg$兄
+light$https://media.kanjialive.com/kanji_strokes/hikari_6.svg$光
+younger brother$https://media.kanjialive.com/kanji_strokes/otouto_7.svg$弟
+older sister$https://media.kanjialive.com/kanji_strokes/ane_8.svg$姉
+younger sister$https://media.kanjialive.com/kanji_strokes/imouto_8.svg$妹
+come$https://media.kanjialive.com/kanji_strokes/rai-ku(ru)_7.svg$来
+every$https://media.kanjialive.com/kanji_strokes/goto_6.svg$毎
+shape$https://media.kanjialive.com/kanji_strokes/katachi_7.svg$形
+morning, dynasty$https://media.kanjialive.com/kanji_strokes/chou-asa_12.svg$朝
+line$https://media.kanjialive.com/kanji_strokes/(suihei)sen_15.svg$線
+weak$https://media.kanjialive.com/kanji_strokes/yowa(i)_10.svg$弱
+round, suffix for names of ships/people$https://media.kanjialive.com/kanji_strokes/maru(meru)_3.svg$丸
+eat, food$https://media.kanjialive.com/kanji_strokes/ta(beru)_9.svg$食
+organize, assemble, group, class, gang$https://media.kanjialive.com/kanji_strokes/kumi_11.svg$組
+make, work$https://media.kanjialive.com/kanji_strokes/saku-tsuku(ru)_7.svg$作
+picture$https://media.kanjialive.com/kanji_strokes/kai(ga)_12.svg$絵
+read$https://media.kanjialive.com/kanji_strokes/yo(mu)_14.svg$読
+week$https://media.kanjialive.com/kanji_strokes/shuu(matsu)_11.svg$週
+gate$https://media.kanjialive.com/kanji_strokes/(nyuu)mon_8.svg$門
+bright, clear$https://media.kanjialive.com/kanji_strokes/aka(rui)_8.svg$明
+daytime$https://media.kanjialive.com/kanji_strokes/hiru_9.svg$昼
+calculate$https://media.kanjialive.com/kanji_strokes/san(suu)_14.svg$算
+hair, fur, feather, down$https://media.kanjialive.com/kanji_strokes/mou(fu)_4.svg$毛
+buy$https://media.kanjialive.com/kanji_strokes/bai-ka(u)_12.svg$買
+flesh, meat$https://media.kanjialive.com/kanji_strokes/niku_6.svg$肉
+sell$https://media.kanjialive.com/kanji_strokes/bai-u(ru)_7.svg$売
+ten thousand$https://media.kanjialive.com/kanji_strokes/(nan)man_3.svg$万
+east$https://media.kanjialive.com/kanji_strokes/higashi_8.svg$東
+feather, wing$https://media.kanjialive.com/kanji_strokes/hane_6.svg$羽
+garden$https://media.kanjialive.com/kanji_strokes/(tei)en_13.svg$園
+rock$https://media.kanjialive.com/kanji_strokes/gan-iwa_8.svg$岩
+steam$https://media.kanjialive.com/kanji_strokes/ki(teki)_7.svg$汽
+bow$https://media.kanjialive.com/kanji_strokes/yumi_3.svg$弓
+south$https://media.kanjialive.com/kanji_strokes/minami_9.svg$南
