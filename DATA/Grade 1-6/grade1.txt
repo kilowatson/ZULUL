@@ -1,80 +1,80 @@
-one$https://media.kanjialive.com/kanji_strokes/1_1.svg$一
-ten$https://media.kanjialive.com/kanji_strokes/10_2.svg$十
-hand$https://media.kanjialive.com/kanji_strokes/te_4.svg$手
-go out, put out$https://media.kanjialive.com/kanji_strokes/de(ru)_5.svg$出
-right$https://media.kanjialive.com/kanji_strokes/migi_5.svg$右
-village$https://media.kanjialive.com/kanji_strokes/son-mura_7.svg$村
-enter, put in$https://media.kanjialive.com/kanji_strokes/hai(ru)_2.svg$入
-white$https://media.kanjialive.com/kanji_strokes/shiro(i)_5.svg$白
-woman$https://media.kanjialive.com/kanji_strokes/onna_3.svg$女
-blue$https://media.kanjialive.com/kanji_strokes/ao_8.svg$青
-gas, spirit$https://media.kanjialive.com/kanji_strokes/ki(mochi)_6.svg$気
-sound$https://media.kanjialive.com/kanji_strokes/oto_9.svg$音
-two$https://media.kanjialive.com/kanji_strokes/2_2.svg$二
-see$https://media.kanjialive.com/kanji_strokes/ken-mi(ru)_7.svg$見
-school$https://media.kanjialive.com/kanji_strokes/(gak)kou_10.svg$校
-ahead$https://media.kanjialive.com/kanji_strokes/sen-saki_6.svg$先
-letter, writings, sentence$https://media.kanjialive.com/kanji_strokes/bun-fumi_4.svg$文
-forest$https://media.kanjialive.com/kanji_strokes/shin-mori_12.svg$森
-vehicle, wheel, car$https://media.kanjialive.com/kanji_strokes/kuruma_7.svg$車
-eye, item$https://media.kanjialive.com/kanji_strokes/moku-me_5.svg$目
-stone$https://media.kanjialive.com/kanji_strokes/ishi_5.svg$石
-sky, air, empty$https://media.kanjialive.com/kanji_strokes/sora_8.svg$空
-evening$https://media.kanjialive.com/kanji_strokes/seki-yuu_3.svg$夕
-three$https://media.kanjialive.com/kanji_strokes/3_3.svg$三
-water$https://media.kanjialive.com/kanji_strokes/mizu_4.svg$水
-foot, suffice, add$https://media.kanjialive.com/kanji_strokes/soku-ashi_7.svg$足
-mouth$https://media.kanjialive.com/kanji_strokes/kuchi_3.svg$口
-tree, wood$https://media.kanjialive.com/kanji_strokes/moku-ki_4.svg$木
-right, correct$https://media.kanjialive.com/kanji_strokes/tada(shii)_5.svg$正
-metal, gold, money$https://media.kanjialive.com/kanji_strokes/kin-kane_8.svg$金
-soil, earth, ground$https://media.kanjialive.com/kanji_strokes/tsuchi_3.svg$土
-day, sun, Japan$https://media.kanjialive.com/kanji_strokes/nichi-hi_4.svg$日
-small$https://media.kanjialive.com/kanji_strokes/chii(sai)_3.svg$小
-stand, establish$https://media.kanjialive.com/kanji_strokes/ritsu-ta(tsu)_5.svg$立
-basis, book, this$https://media.kanjialive.com/kanji_strokes/hon-moto_5.svg$本
-life, be born, student$https://media.kanjialive.com/kanji_strokes/u(mu)_5.svg$生
-grass$https://media.kanjialive.com/kanji_strokes/kusa(ki)_9.svg$草
-dog$https://media.kanjialive.com/kanji_strokes/inu_4.svg$犬
-king$https://media.kanjialive.com/kanji_strokes/ou(sama)_4.svg$王
-shellfish, shell$https://media.kanjialive.com/kanji_strokes/kai(gara)_7.svg$貝
-thread$https://media.kanjialive.com/kanji_strokes/ito_6.svg$糸
-woods, forest$https://media.kanjialive.com/kanji_strokes/hayashi_8.svg$林
-four$https://media.kanjialive.com/kanji_strokes/4_5.svg$四
-six$https://media.kanjialive.com/kanji_strokes/6_4.svg$六
-seven$https://media.kanjialive.com/kanji_strokes/7_2.svg$七
-eight$https://media.kanjialive.com/kanji_strokes/8_2.svg$八
-nine$https://media.kanjialive.com/kanji_strokes/9_2.svg$九
-up$https://media.kanjialive.com/kanji_strokes/jou-ue_3.svg$上
-mountain$https://media.kanjialive.com/kanji_strokes/yama_3.svg$山
-rain$https://media.kanjialive.com/kanji_strokes/u-ame_8.svg$雨
-down$https://media.kanjialive.com/kanji_strokes/ge-shita_3.svg$下
-middle, in$https://media.kanjialive.com/kanji_strokes/chuu-naka_4.svg$中
-left$https://media.kanjialive.com/kanji_strokes/hidari_5.svg$左
-river$https://media.kanjialive.com/kanji_strokes/sen-kawa_3.svg$川
-man$https://media.kanjialive.com/kanji_strokes/otoko_7.svg$男
-heaven$https://media.kanjialive.com/kanji_strokes/ten-ama_4.svg$天
-human being, person$https://media.kanjialive.com/kanji_strokes/nin-hito_2.svg$人
-flower$https://media.kanjialive.com/kanji_strokes/hana(bi)_7.svg$花
-rice field$https://media.kanjialive.com/kanji_strokes/den-ta_5.svg$田
-moon, month$https://media.kanjialive.com/kanji_strokes/getsu-tsuki_4.svg$月
-red$https://media.kanjialive.com/kanji_strokes/seki-aka_7.svg$赤
-fire$https://media.kanjialive.com/kanji_strokes/ka-hi_4.svg$火
-hundred$https://media.kanjialive.com/kanji_strokes/hyaku-momo_6.svg$百
-town$https://media.kanjialive.com/kanji_strokes/chou-machi_7.svg$町
-thousand$https://media.kanjialive.com/kanji_strokes/sen-chi_3.svg$千
-ear$https://media.kanjialive.com/kanji_strokes/mimi_6.svg$耳
-rest$https://media.kanjialive.com/kanji_strokes/yasu(mi)_6.svg$休
-study, educational, institution$https://media.kanjialive.com/kanji_strokes/mana(bu)_8.svg$学
-power, force$https://media.kanjialive.com/kanji_strokes/chikara_2.svg$力
-name$https://media.kanjialive.com/kanji_strokes/na(mae)_6.svg$名
-year$https://media.kanjialive.com/kanji_strokes/nen-toshi_6.svg$年
-early, quick$https://media.kanjialive.com/kanji_strokes/sou-haya(i)_6.svg$早
-circle, yen$https://media.kanjialive.com/kanji_strokes/en-maru_4.svg$円
-insect, bug$https://media.kanjialive.com/kanji_strokes/mushi_6.svg$虫
-gem, jewel, ball$https://media.kanjialive.com/kanji_strokes/gyoku-tama_5.svg$玉
-child, noun suffix$https://media.kanjialive.com/kanji_strokes/shi-ko_3.svg$子
-bamboo$https://media.kanjialive.com/kanji_strokes/chiku-take_6.svg$竹
-character$https://media.kanjialive.com/kanji_strokes/ji-aza_6.svg$字
-big$https://media.kanjialive.com/kanji_strokes/oo(kii)_3.svg$大
-five$https://media.kanjialive.com/kanji_strokes/5_4.svg$五
+一$one$1_1.jpg
+十$ten$10_2.jpg
+手$hand$te_4.jpg
+出$go out, put out$deru_5.jpg
+右$right$migi_5.jpg
+村$village$son-mura_7.jpg
+入$enter, put in$hairu_2.jpg
+白$white$shiroi_5.jpg
+女$woman$onna_3.jpg
+青$blue$ao_8.jpg
+気$gas, spirit$kimochi_6.jpg
+音$sound$oto_9.jpg
+二$two$2_2.jpg
+見$see$ken-miru_7.jpg
+校$school$gakkou_10.jpg
+先$ahead$sen-saki_6.jpg
+文$letter, writings, sentence$bun-fumi_4.jpg
+森$forest$shin-mori_12.jpg
+車$vehicle, wheel, car$kuruma_7.jpg
+目$eye, item$moku-me_5.jpg
+石$stone$ishi_5.jpg
+空$sky, air, empty$sora_8.jpg
+夕$evening$seki-yuu_3.jpg
+三$three$3_3.jpg
+水$water$mizu_4.jpg
+足$foot, suffice, add$soku-ashi_7.jpg
+口$mouth$kuchi_3.jpg
+木$tree, wood$moku-ki_4.jpg
+正$right, correct$tadashii_5.jpg
+金$metal, gold, money$kin-kane_8.jpg
+土$soil, earth, ground$tsuchi_3.jpg
+日$day, sun, Japan$nichi-hi_4.jpg
+小$small$chiisai_3.jpg
+立$stand, establish$ritsu-tatsu_5.jpg
+本$basis, book, this$hon-moto_5.jpg
+生$life, be born, student$umu_5.jpg
+草$grass$kusaki_9.jpg
+犬$dog$inu_4.jpg
+王$king$ousama_4.jpg
+貝$shellfish, shell$kaigara_7.jpg
+糸$thread$ito_6.jpg
+林$woods, forest$hayashi_8.jpg
+四$four$4_5.jpg
+六$six$6_4.jpg
+七$seven$7_2.jpg
+八$eight$8_2.jpg
+九$nine$9_2.jpg
+上$up$jou-ue_3.jpg
+山$mountain$yama_3.jpg
+雨$rain$u-ame_8.jpg
+下$down$ge-shita_3.jpg
+中$middle, in$chuu-naka_4.jpg
+左$left$hidari_5.jpg
+川$river$sen-kawa_3.jpg
+男$man$otoko_7.jpg
+天$heaven$ten-ama_4.jpg
+人$human being, person$nin-hito_2.jpg
+花$flower$hanabi_7.jpg
+田$rice field$den-ta_5.jpg
+月$moon, month$getsu-tsuki_4.jpg
+赤$red$seki-aka_7.jpg
+火$fire$ka-hi_4.jpg
+百$hundred$hyaku-momo_6.jpg
+町$town$chou-machi_7.jpg
+千$thousand$sen-chi_3.jpg
+耳$ear$mimi_6.jpg
+休$rest$yasumi_6.jpg
+学$study, educational, institution$manabu_8.jpg
+力$power, force$chikara_2.jpg
+名$name$namae_6.jpg
+年$year$nen-toshi_6.jpg
+早$early, quick$sou-hayai_6.jpg
+円$circle, yen$en-maru_4.jpg
+虫$insect, bug$mushi_6.jpg
+玉$gem, jewel, ball$gyoku-tama_5.jpg
+子$child, noun suffix$shi-ko_3.jpg
+竹$bamboo$chiku-take_6.jpg
+字$character$ji-aza_6.jpg
+大$big$ookii_3.jpg
+五$five$5_4.jpg

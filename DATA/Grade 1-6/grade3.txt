@@ -1,200 +1,200 @@
-wait$https://media.kanjialive.com/kanji_strokes/ma(tsu)_9.svg$待
-open$https://media.kanjialive.com/kanji_strokes/kai-hira(ku)_12.svg$開
-work, business, industry$https://media.kanjialive.com/kanji_strokes/gyou-waza_13.svg$業
-thing$https://media.kanjialive.com/kanji_strokes/butsu-mono_8.svg$物
-learn, custom$https://media.kanjialive.com/kanji_strokes/shuu-nara(u)_11.svg$習
-tone, investigate, prepare$https://media.kanjialive.com/kanji_strokes/shira(beru)_15.svg$調
-taste$https://media.kanjialive.com/kanji_strokes/aji(wau)_8.svg$味
-carry, move, fortune$https://media.kanjialive.com/kanji_strokes/hako(bu)_12.svg$運
-move$https://media.kanjialive.com/kanji_strokes/ugo(ku)_11.svg$動
-collect$https://media.kanjialive.com/kanji_strokes/tsudo(u)_12.svg$集
-decide$https://media.kanjialive.com/kanji_strokes/ketsu-ki(meru)_7.svg$決
-affair, abstract thing$https://media.kanjialive.com/kanji_strokes/ji-koto_8.svg$事
-real, fruit, nut$https://media.kanjialive.com/kanji_strokes/jitsu-mino(ru)_8.svg$実
-illness, disease, sickness$https://media.kanjialive.com/kanji_strokes/yamai_10.svg$病
-start, emit$https://media.kanjialive.com/kanji_strokes/hatsu-ta(tsu)_9.svg$発
-train, knead$https://media.kanjialive.com/kanji_strokes/ren(shuu)_14.svg$練
-title, topic, problem$https://media.kanjialive.com/kanji_strokes/dai(moku)_18.svg$題
-whole$https://media.kanjialive.com/kanji_strokes/matta(ku)_6.svg$全
-section$https://media.kanjialive.com/kanji_strokes/he(ya)_11.svg$部
-sand, sharpen$https://media.kanjialive.com/kanji_strokes/ken-to(gu)_9.svg$研
-heavy$https://media.kanjialive.com/kanji_strokes/juu-omo(ri)_9.svg$重
-cold$https://media.kanjialive.com/kanji_strokes/samu(i)_12.svg$寒
-summer heat, hot$https://media.kanjialive.com/kanji_strokes/sho-atsu(i)_12.svg$暑
-station$https://media.kanjialive.com/kanji_strokes/(kaku)eki_14.svg$駅
-place$https://media.kanjialive.com/kanji_strokes/(ba)sho_8.svg$所
-sideways, side$https://media.kanjialive.com/kanji_strokes/yoko_15.svg$横
-curve, musical composition$https://media.kanjialive.com/kanji_strokes/ma(garu)_6.svg$曲
-bridge$https://media.kanjialive.com/kanji_strokes/kyou-hashi_16.svg$橋
-turn toward, face toward$https://media.kanjialive.com/kanji_strokes/kou-mu(ki)_6.svg$向
-world, era$https://media.kanjialive.com/kanji_strokes/sei-yo_5.svg$世
-world, boundary$https://media.kanjialive.com/kanji_strokes/(se)kai_9.svg$界
-medicine, doctor$https://media.kanjialive.com/kanji_strokes/i(gaku)_7.svg$医
-person$https://media.kanjialive.com/kanji_strokes/sha-mono_8.svg$者
-distribute$https://media.kanjialive.com/kanji_strokes/kuba(ru)_10.svg$配
-mode, way, formal title, manner$https://media.kanjialive.com/kanji_strokes/sama_14.svg$様
-former times, antiquity$https://media.kanjialive.com/kanji_strokes/mukashi_8.svg$昔
-ocean, western$https://media.kanjialive.com/kanji_strokes/you(fuku)_9.svg$洋
-report, speak humbly$https://media.kanjialive.com/kanji_strokes/mou(su)_5.svg$申
-main, master$https://media.kanjialive.com/kanji_strokes/nushi_5.svg$主
-sad$https://media.kanjialive.com/kanji_strokes/hi-kana(shii)_12.svg$悲
-member$https://media.kanjialive.com/kanji_strokes/(ginkou)in_10.svg$員
-clothes, clothing, submit$https://media.kanjialive.com/kanji_strokes/(you)fuku_8.svg$服
-island$https://media.kanjialive.com/kanji_strokes/tou-shima_10.svg$島
-receive$https://media.kanjialive.com/kanji_strokes/ju-u(keru)_8.svg$受
-sense, feel$https://media.kanjialive.com/kanji_strokes/(sekinin)kan_13.svg$感
-send$https://media.kanjialive.com/kanji_strokes/sou-oku(ru)_9.svg$送
-ball$https://media.kanjialive.com/kanji_strokes/kyuu-tama_11.svg$球
-play$https://media.kanjialive.com/kanji_strokes/aso(bu)_12.svg$遊
-service, role$https://media.kanjialive.com/kanji_strokes/yaku(me)_7.svg$役
-change into$https://media.kanjialive.com/kanji_strokes/ba(keru)_4.svg$化
-suffering, bitter, painful$https://media.kanjialive.com/kanji_strokes/niga(i)_8.svg$苦
-ride, get on$https://media.kanjialive.com/kanji_strokes/jou-no(ru)_9.svg$乗
-let go, release$https://media.kanjialive.com/kanji_strokes/hou-hana(su)_8.svg$放
-fall$https://media.kanjialive.com/kanji_strokes/raku-o(chiru)_12.svg$落
-implement, tool$https://media.kanjialive.com/kanji_strokes/(dou)gu_8.svg$具
-order, life$https://media.kanjialive.com/kanji_strokes/inochi_8.svg$命
-endeavor$https://media.kanjialive.com/kanji_strokes/ben(kyou)_10.svg$勉
-drug, medicine$https://media.kanjialive.com/kanji_strokes/kusuri_16.svg$薬
-visitor, customer, guest$https://media.kanjialive.com/kanji_strokes/(rai)kyaku_9.svg$客
-breath$https://media.kanjialive.com/kanji_strokes/soku-iki_10.svg$息
-pick up, ten (in documents)$https://media.kanjialive.com/kanji_strokes/shuu-hiro(u)_9.svg$拾
-root$https://media.kanjialive.com/kanji_strokes/kon-ne_10.svg$根
-load, cargo, baggage$https://media.kanjialive.com/kanji_strokes/ni(motsu)_10.svg$荷
-equal, class$https://media.kanjialive.com/kanji_strokes/(byou)dou_12.svg$等
-bear, lose, defeat, owe$https://media.kanjialive.com/kanji_strokes/fu(tan)_9.svg$負
-harmony, peace, Japan$https://media.kanjialive.com/kanji_strokes/yawa(ragu)_8.svg$和
-iron$https://media.kanjialive.com/kanji_strokes/tetsu(dou)_13.svg$鉄
-nose$https://media.kanjialive.com/kanji_strokes/bi-hana_14.svg$鼻
-peaceful, inexpensive$https://media.kanjialive.com/kanji_strokes/yasu(i)_6.svg$安
-leaf、foliage$https://media.kanjialive.com/kanji_strokes/(ochi)ba_12.svg$葉
-board, plate$https://media.kanjialive.com/kanji_strokes/ita_8.svg$板
-floor, rank, stair, level$https://media.kanjialive.com/kanji_strokes/(chi)kai_12.svg$階
-prefecture$https://media.kanjialive.com/kanji_strokes/ken(chiji)_9.svg$県
-swim$https://media.kanjialive.com/kanji_strokes/oyo(gu)_8.svg$泳
-oil$https://media.kanjialive.com/kanji_strokes/yu-abura_8.svg$油
-storage chamber, storehouse$https://media.kanjialive.com/kanji_strokes/(hou)ko_10.svg$庫
-raise$https://media.kanjialive.com/kanji_strokes/soda(tsu)_8.svg$育
-dark, dim$https://media.kanjialive.com/kanji_strokes/kura(i)_13.svg$暗
-live$https://media.kanjialive.com/kanji_strokes/juu-su(mu)_7.svg$住
-commit, entrust$https://media.kanjialive.com/kanji_strokes/i(ninsuru)_8.svg$委
-center, middle$https://media.kanjialive.com/kanji_strokes/(chuu)ou(sen)_5.svg$央
-win, excel, be superior$https://media.kanjialive.com/kanji_strokes/shou-masa(ru)_12.svg$勝
-quick, fast, prompt$https://media.kanjialive.com/kanji_strokes/soku-haya(i)_10.svg$速
-coal, charcoal$https://media.kanjialive.com/kanji_strokes/tan-sumi_9.svg$炭
-pillar, pole$https://media.kanjialive.com/kanji_strokes/hashira_9.svg$柱
-town subsection, miscellaneous counter, even number$https://media.kanjialive.com/kanji_strokes/tei(neina)_2.svg$丁
-notebook$https://media.kanjialive.com/kanji_strokes/(nikki)chou_11.svg$帳
-flute, whistle$https://media.kanjialive.com/kanji_strokes/fue_11.svg$笛
-throw, send in$https://media.kanjialive.com/kanji_strokes/tou-na(geru)_7.svg$投
-bean, pea, miniature$https://media.kanjialive.com/kanji_strokes/mame_7.svg$豆
-climb$https://media.kanjialive.com/kanji_strokes/tou-nobo(ru)_12.svg$登
-child$https://media.kanjialive.com/kanji_strokes/warabe_12.svg$童
-wave$https://media.kanjialive.com/kanji_strokes/(on)pa_8.svg$波
-box$https://media.kanjialive.com/kanji_strokes/(su)bako_15.svg$箱
-field, cultivated field$https://media.kanjialive.com/kanji_strokes/(ta)hata_9.svg$畑
-brush, writing$https://media.kanjialive.com/kanji_strokes/fude_12.svg$筆
-ice$https://media.kanjialive.com/kanji_strokes/hyou-koori_5.svg$氷
-sheep$https://media.kanjialive.com/kanji_strokes/you-hitsuji_6.svg$羊
-drink$https://media.kanjialive.com/kanji_strokes/in-no(mu)_12.svg$飲
-return$https://media.kanjialive.com/kanji_strokes/hen-kae(su)_7.svg$返
-hold$https://media.kanjialive.com/kanji_strokes/ji-mo(tsu)_9.svg$持
-short$https://media.kanjialive.com/kanji_strokes/mijika(i)_12.svg$短
-put on, arrive, stick$https://media.kanjialive.com/kanji_strokes/chaku-ki(ru)_12.svg$着
-question$https://media.kanjialive.com/kanji_strokes/to(u)_11.svg$問
-public building$https://media.kanjialive.com/kanji_strokes/kan-tate(mono)_16.svg$館
-etiquette, rite, courtesy, gratitude$https://media.kanjialive.com/kanji_strokes/rei(gi)_5.svg$礼
-reason$https://media.kanjialive.com/kanji_strokes/(ji)yuu_5.svg$由
-degree, time$https://media.kanjialive.com/kanji_strokes/do-tabi_9.svg$度
-bad, evil$https://media.kanjialive.com/kanji_strokes/waru(i)_11.svg$悪
-number, designation, sign$https://media.kanjialive.com/kanji_strokes/(ban)gou_5.svg$号
-study exhaustively$https://media.kanjialive.com/kanji_strokes/kyuu-kiwa(meru)_7.svg$究
-serve, do$https://media.kanjialive.com/kanji_strokes/shi(goto)_5.svg$仕
-house, small shop$https://media.kanjialive.com/kanji_strokes/oku-ya_9.svg$屋
-use, envoy$https://media.kanjialive.com/kanji_strokes/shi-tsuka(u)_8.svg$使
-urgent, hurry, sudden$https://media.kanjialive.com/kanji_strokes/iso(gu)_9.svg$急
-next$https://media.kanjialive.com/kanji_strokes/tsugi_6.svg$次
-silver$https://media.kanjialive.com/kanji_strokes/gin(za)_14.svg$銀
-mutual, phase, minister$https://media.kanjialive.com/kanji_strokes/sou-ai_9.svg$相
-talk, conversation$https://media.kanjialive.com/kanji_strokes/dan(wa)_15.svg$談
-term, time, expect$https://media.kanjialive.com/kanji_strokes/(yo)ki_12.svg$期
-lodge$https://media.kanjialive.com/kanji_strokes/yado_11.svg$宿
-travel$https://media.kanjialive.com/kanji_strokes/ryo-tabi_10.svg$旅
-take$https://media.kanjialive.com/kanji_strokes/shu-to(ru)_8.svg$取
-in advance$https://media.kanjialive.com/kanji_strokes/yo(tei)_4.svg$予
-fix, determine$https://media.kanjialive.com/kanji_strokes/sada(meru)_8.svg$定
-copy$https://media.kanjialive.com/kanji_strokes/sha-utsu(su)_5.svg$写
-true, genuine$https://media.kanjialive.com/kanji_strokes/(sha)shin_10.svg$真
-mind, meaning, will$https://media.kanjialive.com/kanji_strokes/(ketsu)i_13.svg$意
-ruler, familiar title, you$https://media.kanjialive.com/kanji_strokes/kimi_7.svg$君
-die, death$https://media.kanjialive.com/kanji_strokes/shi(nu)_6.svg$死
-style, ceremony$https://media.kanjialive.com/kanji_strokes/(kei)shiki_6.svg$式
-other$https://media.kanjialive.com/kanji_strokes/ta-hoka_5.svg$他
-happiness, happy$https://media.kanjialive.com/kanji_strokes/saiwa(i)_8.svg$幸
-counter, anti-$https://media.kanjialive.com/kanji_strokes/han-so(ru)_4.svg$反
-oppose, opposite, against$https://media.kanjialive.com/kanji_strokes/(han)tai_7.svg$対
-article, goods$https://media.kanjialive.com/kanji_strokes/shina_9.svg$品
-grade$https://media.kanjialive.com/kanji_strokes/(ni)kyuu_9.svg$級
-face, mask, surface$https://media.kanjialive.com/kanji_strokes/men-omote_9.svg$面
-ordinal number prefix, degree$https://media.kanjialive.com/kanji_strokes/dai(ichi)_11.svg$第
-express, surface, table$https://media.kanjialive.com/kanji_strokes/hyou-omote_8.svg$表
-connect, person in charge$https://media.kanjialive.com/kanji_strokes/kei-kaka(ri)_9.svg$係
-have$https://media.kanjialive.com/kanji_strokes/yuu-a(ru)_6.svg$有
-flow, current, style$https://media.kanjialive.com/kanji_strokes/ryuu-naga(re)_10.svg$流
-help, rescue, assistance$https://media.kanjialive.com/kanji_strokes/tasu(keru)_7.svg$助
-deep$https://media.kanjialive.com/kanji_strokes/fuka(i)_11.svg$深
-conceive, idea, thought$https://media.kanjialive.com/kanji_strokes/(yo)sou_13.svg$想
-flat, calm$https://media.kanjialive.com/kanji_strokes/tai(ra)_5.svg$平
-advance, progress$https://media.kanjialive.com/kanji_strokes/susu(mu)_11.svg$進
-court, garden$https://media.kanjialive.com/kanji_strokes/niwa_10.svg$庭
-institution$https://media.kanjialive.com/kanji_strokes/(byou)in_10.svg$院
-chase, pursue$https://media.kanjialive.com/kanji_strokes/tsui-o(u)_9.svg$追
-substitute, generation, charge$https://media.kanjialive.com/kanji_strokes/dai-ka(waru)_5.svg$代
-rise, get up$https://media.kanjialive.com/kanji_strokes/o(kiru)_10.svg$起
-capital (city), metropolis$https://media.kanjialive.com/kanji_strokes/to-miyako_11.svg$都
-state$https://media.kanjialive.com/kanji_strokes/shuu(ritsu)_6.svg$州
-fortune$https://media.kanjialive.com/kanji_strokes/(dai)fuku_13.svg$福
-times, double$https://media.kanjialive.com/kanji_strokes/bai(ritsu)_10.svg$倍
-poetry, poem$https://media.kanjialive.com/kanji_strokes/(joji)shi_13.svg$詩
-strike, hit$https://media.kanjialive.com/kanji_strokes/da-u(tsu)_5.svg$打
-family,tribe$https://media.kanjialive.com/kanji_strokes/(ka)zoku_11.svg$族
-shore, bank, coast$https://media.kanjialive.com/kanji_strokes/kishi_8.svg$岸
-protect, obey, babysitter$https://media.kanjialive.com/kanji_strokes/shu-mamo(ru)_6.svg$守
-extinguish, delete, disappear, erase$https://media.kanjialive.com/kanji_strokes/ki(eru)_10.svg$消
-trade, deal$https://media.kanjialive.com/kanji_strokes/akina(u)_11.svg$商
-beautiful, beauty$https://media.kanjialive.com/kanji_strokes/utsuku(shii)_9.svg$美
-farming, agriculture$https://media.kanjialive.com/kanji_strokes/nou(gyou)_13.svg$農
-pour, concentrate, note$https://media.kanjialive.com/kanji_strokes/chuu-soso(gu)_8.svg$注
-body, oneself$https://media.kanjialive.com/kanji_strokes/mi(gara)_7.svg$身
-row$https://media.kanjialive.com/kanji_strokes/retsu_6.svg$列
-finger, point$https://media.kanjialive.com/kanji_strokes/yubi_9.svg$指
-god, mind$https://media.kanjialive.com/kanji_strokes/shin-kami_9.svg$神
-road, way, street$https://media.kanjialive.com/kanji_strokes/(tsuu)ro_13.svg$路
-chapter, badge$https://media.kanjialive.com/kanji_strokes/(kun)shou_11.svg$章
-go away, leave$https://media.kanjialive.com/kanji_strokes/kyo-sa(ru)_5.svg$去
-slope, hill$https://media.kanjialive.com/kanji_strokes/saka_7.svg$坂
-green$https://media.kanjialive.com/kanji_strokes/ryoku-midori_14.svg$緑
-plant$https://media.kanjialive.com/kanji_strokes/u(waru)_12.svg$植
-bureau, limited part, office$https://media.kanjialive.com/kanji_strokes/(yuubin)kyoku_7.svg$局
-warm$https://media.kanjialive.com/kanji_strokes/on(sen)_12.svg$温
-light$https://media.kanjialive.com/kanji_strokes/karu(i)_12.svg$軽
-tooth$https://media.kanjialive.com/kanji_strokes/shi-ha_12.svg$歯
-turn, roll over, fall down$https://media.kanjialive.com/kanji_strokes/koro(bu)_11.svg$転
-skin, hide, rind, leather, bark$https://media.kanjialive.com/kanji_strokes/hi-kawa_5.svg$皮
-plate, dish, saucer$https://media.kanjialive.com/kanji_strokes/sara_5.svg$皿
-hot water$https://media.kanjialive.com/kanji_strokes/(o)yu_12.svg$湯
-both$https://media.kanjialive.com/kanji_strokes/ryou(shin)_6.svg$両
-royal palace, shinto shrine$https://media.kanjialive.com/kanji_strokes/miya_10.svg$宮
-district, ward$https://media.kanjialive.com/kanji_strokes/ku(iki)_4.svg$区
-blood$https://media.kanjialive.com/kanji_strokes/ketsu-chi_6.svg$血
-lake$https://media.kanjialive.com/kanji_strokes/mizuumi_12.svg$湖
-port, harbor$https://media.kanjialive.com/kanji_strokes/kou-minato_12.svg$港
-festival$https://media.kanjialive.com/kanji_strokes/matsuri_11.svg$祭
-alcoholic drink, sake,alcohol, liquor$https://media.kanjialive.com/kanji_strokes/shu-sake_10.svg$酒
-luminous, bright, clear$https://media.kanjialive.com/kanji_strokes/shou(washi)_9.svg$昭
-put in order, organize, prepared$https://media.kanjialive.com/kanji_strokes/sei-totono(u)_16.svg$整
-sun, positive$https://media.kanjialive.com/kanji_strokes/you(kina)_12.svg$陽
-Chinese, fellow$https://media.kanjialive.com/kanji_strokes/kan(ji)_13.svg$漢
-end$https://media.kanjialive.com/kanji_strokes/o(waru)_11.svg$終
-begin$https://media.kanjialive.com/kanji_strokes/haji(maru)_8.svg$始
-second (of time)$https://media.kanjialive.com/kanji_strokes/(ichi)byou_9.svg$秒
+待$wait$matsu_9.jpg
+開$open$kai-hiraku_12.jpg
+業$work, business, industry$gyou-waza_13.jpg
+物$thing$butsu-mono_8.jpg
+習$learn, custom$shuu-narau_11.jpg
+調$tone, investigate, prepare$shiraberu_15.jpg
+味$taste$ajiwau_8.jpg
+運$carry, move, fortune$hakobu_12.jpg
+動$move$ugoku_11.jpg
+集$collect$tsudou_12.jpg
+決$decide$ketsu-kimeru_7.jpg
+事$affair, abstract thing$ji-koto_8.jpg
+実$real, fruit, nut$jitsu-minoru_8.jpg
+病$illness, disease, sickness$yamai_10.jpg
+発$start, emit$hatsu-tatsu_9.jpg
+練$train, knead$renshuu_14.jpg
+題$title, topic, problem$daimoku_18.jpg
+全$whole$mattaku_6.jpg
+部$section$heya_11.jpg
+研$sand, sharpen$ken-togu_9.jpg
+重$heavy$juu-omori_9.jpg
+寒$cold$samui_12.jpg
+暑$summer heat, hot$sho-atsui_12.jpg
+駅$station$kakueki_14.jpg
+所$place$basho_8.jpg
+横$sideways, side$yoko_15.jpg
+曲$curve, musical composition$magaru_6.jpg
+橋$bridge$kyou-hashi_16.jpg
+向$turn toward, face toward$kou-muki_6.jpg
+世$world, era$sei-yo_5.jpg
+界$world, boundary$sekai_9.jpg
+医$medicine, doctor$igaku_7.jpg
+者$person$sha-mono_8.jpg
+配$distribute$kubaru_10.jpg
+様$mode, way, formal title, manner$sama_14.jpg
+昔$former times, antiquity$mukashi_8.jpg
+洋$ocean, western$youfuku_9.jpg
+申$report, speak humbly$mousu_5.jpg
+主$main, master$nushi_5.jpg
+悲$sad$hi-kanashii_12.jpg
+員$member$ginkouin_10.jpg
+服$clothes, clothing, submit$youfuku_8.jpg
+島$island$tou-shima_10.jpg
+受$receive$ju-ukeru_8.jpg
+感$sense, feel$sekininkan_13.jpg
+送$send$sou-okuru_9.jpg
+球$ball$kyuu-tama_11.jpg
+遊$play$asobu_12.jpg
+役$service, role$yakume_7.jpg
+化$change into$bakeru_4.jpg
+苦$suffering, bitter, painful$nigai_8.jpg
+乗$ride, get on$jou-noru_9.jpg
+放$let go, release$hou-hanasu_8.jpg
+落$fall$raku-ochiru_12.jpg
+具$implement, tool$dougu_8.jpg
+命$order, life$inochi_8.jpg
+勉$endeavor$benkyou_10.jpg
+薬$drug, medicine$kusuri_16.jpg
+客$visitor, customer, guest$raikyaku_9.jpg
+息$breath$soku-iki_10.jpg
+拾$pick up, ten (in documents)$shuu-hirou_9.jpg
+根$root$kon-ne_10.jpg
+荷$load, cargo, baggage$nimotsu_10.jpg
+等$equal, class$byoudou_12.jpg
+負$bear, lose, defeat, owe$futan_9.jpg
+和$harmony, peace, Japan$yawaragu_8.jpg
+鉄$iron$tetsudou_13.jpg
+鼻$nose$bi-hana_14.jpg
+安$peaceful, inexpensive$yasui_6.jpg
+葉$leaf、foliage$ochiba_12.jpg
+板$board, plate$ita_8.jpg
+階$floor, rank, stair, level$chikai_12.jpg
+県$prefecture$kenchiji_9.jpg
+泳$swim$oyogu_8.jpg
+油$oil$yu-abura_8.jpg
+庫$storage chamber, storehouse$houko_10.jpg
+育$raise$sodatsu_8.jpg
+暗$dark, dim$kurai_13.jpg
+住$live$juu-sumu_7.jpg
+委$commit, entrust$ininsuru_8.jpg
+央$center, middle$chuuousen_5.jpg
+勝$win, excel, be superior$shou-masaru_12.jpg
+速$quick, fast, prompt$soku-hayai_10.jpg
+炭$coal, charcoal$tan-sumi_9.jpg
+柱$pillar, pole$hashira_9.jpg
+丁$town subsection, miscellaneous counter, even number$teineina_2.jpg
+帳$notebook$nikkichou_11.jpg
+笛$flute, whistle$fue_11.jpg
+投$throw, send in$tou-nageru_7.jpg
+豆$bean, pea, miniature$mame_7.jpg
+登$climb$tou-noboru_12.jpg
+童$child$warabe_12.jpg
+波$wave$onpa_8.jpg
+箱$box$subako_15.jpg
+畑$field, cultivated field$tahata_9.jpg
+筆$brush, writing$fude_12.jpg
+氷$ice$hyou-koori_5.jpg
+羊$sheep$you-hitsuji_6.jpg
+飲$drink$in-nomu_12.jpg
+返$return$hen-kaesu_7.jpg
+持$hold$ji-motsu_9.jpg
+短$short$mijikai_12.jpg
+着$put on, arrive, stick$chaku-kiru_12.jpg
+問$question$tou_11.jpg
+館$public building$kan-tatemono_16.jpg
+礼$etiquette, rite, courtesy, gratitude$reigi_5.jpg
+由$reason$jiyuu_5.jpg
+度$degree, time$do-tabi_9.jpg
+悪$bad, evil$warui_11.jpg
+号$number, designation, sign$bangou_5.jpg
+究$study exhaustively$kyuu-kiwameru_7.jpg
+仕$serve, do$shigoto_5.jpg
+屋$house, small shop$oku-ya_9.jpg
+使$use, envoy$shi-tsukau_8.jpg
+急$urgent, hurry, sudden$isogu_9.jpg
+次$next$tsugi_6.jpg
+銀$silver$ginza_14.jpg
+相$mutual, phase, minister$sou-ai_9.jpg
+談$talk, conversation$danwa_15.jpg
+期$term, time, expect$yoki_12.jpg
+宿$lodge$yado_11.jpg
+旅$travel$ryo-tabi_10.jpg
+取$take$shu-toru_8.jpg
+予$in advance$yotei_4.jpg
+定$fix, determine$sadameru_8.jpg
+写$copy$sha-utsusu_5.jpg
+真$true, genuine$shashin_10.jpg
+意$mind, meaning, will$ketsui_13.jpg
+君$ruler, familiar title, you$kimi_7.jpg
+死$die, death$shinu_6.jpg
+式$style, ceremony$keishiki_6.jpg
+他$other$ta-hoka_5.jpg
+幸$happiness, happy$saiwai_8.jpg
+反$counter, anti-$han-soru_4.jpg
+対$oppose, opposite, against$hantai_7.jpg
+品$article, goods$shina_9.jpg
+級$grade$nikyuu_9.jpg
+面$face, mask, surface$men-omote_9.jpg
+第$ordinal number prefix, degree$daiichi_11.jpg
+表$express, surface, table$hyou-omote_8.jpg
+係$connect, person in charge$kei-kakari_9.jpg
+有$have$yuu-aru_6.jpg
+流$flow, current, style$ryuu-nagare_10.jpg
+助$help, rescue, assistance$tasukeru_7.jpg
+深$deep$fukai_11.jpg
+想$conceive, idea, thought$yosou_13.jpg
+平$flat, calm$taira_5.jpg
+進$advance, progress$susumu_11.jpg
+庭$court, garden$niwa_10.jpg
+院$institution$byouin_10.jpg
+追$chase, pursue$tsui-ou_9.jpg
+代$substitute, generation, charge$dai-kawaru_5.jpg
+起$rise, get up$okiru_10.jpg
+都$capital (city), metropolis$to-miyako_11.jpg
+州$state$shuuritsu_6.jpg
+福$fortune$daifuku_13.jpg
+倍$times, double$bairitsu_10.jpg
+詩$poetry, poem$jojishi_13.jpg
+打$strike, hit$da-utsu_5.jpg
+族$family,tribe$kazoku_11.jpg
+岸$shore, bank, coast$kishi_8.jpg
+守$protect, obey, babysitter$shu-mamoru_6.jpg
+消$extinguish, delete, disappear, erase$kieru_10.jpg
+商$trade, deal$akinau_11.jpg
+美$beautiful, beauty$utsukushii_9.jpg
+農$farming, agriculture$nougyou_13.jpg
+注$pour, concentrate, note$chuu-sosogu_8.jpg
+身$body, oneself$migara_7.jpg
+列$row$retsu_6.jpg
+指$finger, point$yubi_9.jpg
+神$god, mind$shin-kami_9.jpg
+路$road, way, street$tsuuro_13.jpg
+章$chapter, badge$kunshou_11.jpg
+去$go away, leave$kyo-saru_5.jpg
+坂$slope, hill$saka_7.jpg
+緑$green$ryoku-midori_14.jpg
+植$plant$uwaru_12.jpg
+局$bureau, limited part, office$yuubinkyoku_7.jpg
+温$warm$onsen_12.jpg
+軽$light$karui_12.jpg
+歯$tooth$shi-ha_12.jpg
+転$turn, roll over, fall down$korobu_11.jpg
+皮$skin, hide, rind, leather, bark$hi-kawa_5.jpg
+皿$plate, dish, saucer$sara_5.jpg
+湯$hot water$oyu_12.jpg
+両$both$ryoushin_6.jpg
+宮$royal palace, shinto shrine$miya_10.jpg
+区$district, ward$kuiki_4.jpg
+血$blood$ketsu-chi_6.jpg
+湖$lake$mizuumi_12.jpg
+港$port, harbor$kou-minato_12.jpg
+祭$festival$matsuri_11.jpg
+酒$alcoholic drink, sake,alcohol, liquor$shu-sake_10.jpg
+昭$luminous, bright, clear$shouwashi_9.jpg
+整$put in order, organize, prepared$sei-totonou_16.jpg
+陽$sun, positive$youkina_12.jpg
+漢$Chinese, fellow$kanji_13.jpg
+終$end$owaru_11.jpg
+始$begin$hajimaru_8.jpg
+秒$second (of time)$ichibyou_9.jpg

@@ -1,29 +1,24 @@
 'use strict'
 const { timeStamp } = require("console");
-const http = require("https");
-const unirest = require("unirest");
-var axios = require("axios").default;
+
 
 class Kanji{
     
     constructor() {
+
         this.difficulty = "1";
-        
-       
-        //this.currentKanji = JSON;
         this.fs = require('fs');
         this.update();
-        
       
       }
     
-    
-      setDifficulty(difficulty){
+    //
+    setDifficulty(difficulty){
         this.difficulty = difficulty;
         this.update();
     }
 
-
+    //Loads kanji information into memory
     update(){
         try {
             // read contents of the file
@@ -38,7 +33,49 @@ class Kanji{
         }
 
     }
-    /*
+    
+    
+    //Sets the kanji 
+    setKanji(num){
+        this.question = this.lines[num].split("$");
+        this.kanji = this.question[0];
+        this.imageName = this.question[2];
+        this.answer = this.question[1].split(", ");
+        
+        
+    }
+
+    //Gets the difficulty
+    getDifficulty(){
+        return this.difficulty;
+    }
+    
+    //Returns the path of the image
+    getImage(){
+        console.log("./DATA/Grade 1-6/Grade-"  + this.difficulty + "/" + this.imageName)
+        return "../Discord Bot/DATA/Grade 1-6/Grade-"  + this.difficulty + "/" + this.imageName;
+    }
+
+    //Returns the name of the image file
+    getName(){
+        return this.imageName;
+    }
+
+    //Returns the answer :)
+    getAnswer(){
+        
+        return this.answer;
+    }
+
+    getKanji(){
+        return this.kanji;
+    }
+    
+
+    
+}module.exports = Kanji;
+
+/*
      async search(){
 
         var options = {
@@ -59,30 +96,3 @@ class Kanji{
         
     }
 */
-
-    
-    
-    setKanji(num){
-        this.kanji = this.lines[num];
-        console.log(this.kanji);
-        
-    }
-    getDifficulty(){
-        return this.difficulty;
-    }
-    
-    getImage(){
-       
-        return "./DATA/Grade 1-6/Grade-"  + this.difficulty + "/" + this.kanji.split("$")[1].split("/")[4].split(".")[0] + ".jpg";
-    }
-    getName(){
-        return this.kanji.split("$")[1].split("/")[4].split(".")[0] + ".jpg"
-    }
-    getAnswer(){
-        
-        return this.kanji.split("$")[0].split(", ");
-    }
-    
-
-    
-}module.exports = Kanji;

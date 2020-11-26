@@ -10,8 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
+    "canvas": "^2.6.1",
+    "currently-airing-anime": "^0.6.3",
     "discord.js": "^12.4.1",
+    "excel-date-to-js": "^1.0.6",
+    "jimp": "^0.16.1",
+    "luxon": "^1.25.0",
     "node-fetch": "^2.6.1",
+    "pokedex-promise-v2": "^3.2.0",
     "unirest": "^0.6.0"
   }
 }

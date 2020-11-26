@@ -1,25 +1,24 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const axios = require("axios");
-const token = 'NjA0NDc1MjcwMDQwMjU2NTMx.XTugWQ.Ug5stdS3fA_bn4XYy6Xky_uaenw';
+const token = '';
 const prefix = "A.";
 const fetch = require('node-fetch');
 const { Client, MessageAttachment } = require('discord.js');
-    fs = require('fs');
+fs = require('fs');
 bot.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
-////
-//var k = require("./src/Kanji.js");
-//var d = new k();
 
+
+//Loads commands
 for (const file of commandFiles) {
     const command = require(`./commands/${file}`);
 
     bot.commands.set(command.name, command);
 }
 
-
+//Bot booting up message
 bot.on('ready', () => {
     
 	console.log('This bot is online!');
@@ -27,36 +26,79 @@ bot.on('ready', () => {
 
 
  
- /* 
-  axios.request(options).then(function (response) {
-      console.log(response.data);
-  }).catch(function (error) {
-      console.error(error);
-  });
-  */
- function randomIntInc(low, high) {
-    return Math.floor(Math.random() * (high - low + 1) + low)
-  }
 
+ //Runs commands
  bot.on('message', async message=> {
-     console.log("Message recieved");
-     
 
+    //Ignores messages sent by bot and messages that don't start with the prefix
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 
-    const args = message.content.slice(prefix.length).trim().split(/ +/);
-    const command = args.shift().toLowerCase();
+    const args = message.content.slice(prefix.length).trim().split(/ +/);//Gets the argument/s from the message 
+    const commandName = args.shift().toLowerCase();//Separates the arguments form the command
+
+
     
-    if(command == "exit"){
+    if(commandName == "edit"){
+        const exampleEmbed = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('Some title')
+	.setURL('https://discord.js.org/')
+	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+	.setDescription('Some description here')
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	.addFields(
+		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)
+	.addField('Inline field title', 'Some value here', true)
+	.setImage('https://i.imgur.com/wSTFkRM.png')
+	.setTimestamp()
+    .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+    
+        var x = await message.channel.send(exampleEmbed);
+        exampleEmbed.setTitle("I did");
+        const filter2 = (reaction) => {
+            console.log(reaction.emoji.name === '⬅️' || reaction.emoji.name === '➡️');
+            return reaction.emoji.name === '⬅️' || reaction.emoji.name === '➡️';
+        };
+        x.awaitReactions(filter2,{max: 1, time: 30000, errors: ['time'] })
+        
+        .then(collected  => {
+            x.edit(exampleEmbed)
+         x.react("⬅️");
+         x.react("➡️");
+        })
+        .catch(collected =>{
+            console.log("You got me");
+        })
+        
+    }
+   
+    //Temporary if, this ends the bot
+    if(commandName == "exit"){
         bot.destroy();
         return;
     }
-    message.channel.send("Lets begin");
-    if (!bot.commands.has(command)) return;
-
+   
+    console.log(message.guild.members.cache.get(message.author.id).user.username);
+   
+    const command = bot.commands.get(commandName)
+        || bot.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
+        
+        if (!command) return;
+    //Checks if command is valid
+    
+    
+    //Attempts to run the exectue function of the command
 try {
-	bot.commands.get(command).execute(message, args);
+    command.execute(message, args);
+  
+        
+    
+        
 } catch (error) {
 	console.error(error);
 	message.reply('there was an error trying to execute that command!');
@@ -64,7 +106,20 @@ try {
 
 
  });
+
+ //Logs the bot in
  bot.login(token); 
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
