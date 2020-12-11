@@ -67,47 +67,45 @@ class ScheduleHelper{
         
         
         this.slid = [];
-        await currentlyAiringAnime().then(({shows, next}) => {
+        await currentlyAiringAnime({ season: 'FALL',  seasonYear: 2020,
+        }).then(({shows, next}) => {
             this.show = [];
             for(x = 0;x < shows.length;x++){
+                if(shows[x].nextAiringEpisode != null)
                 this.show.push(shows[x]);
                // console.log(shows[x].title.romaji);
               }
             console.log(next);
-            if (next) {
-
-                 next().then(({shows, next}) => {
-                    
-                  // logs shows
-                  for(x = 0;x < shows.length;x++){
-                    this.show.push(shows[x]);
-                   //console.log(shows[x].title.romaji);
-                  }
-                  console.log(" this " + next);
-                  if (next) {
-
-                    next().then(({shows, next}) => {
-                
-                      // logs shows
-                      for(x = 0;x < shows.length;x++){
-                        this.show.push(shows[x]);
-                      //  console.log(shows[x].title.romaji)
-                      }
-                      //;
-                    
-                    }); 
-                }
-                });
-            } 
+            
+               
+            
            // if(next){
           //      this.show += next;    
           //  }
-            //console.log(shows);
-            
+            //console.log(shows);     
           });
+          await currentlyAiringAnime({ season: 'WINTER',  seasonYear: 2020,
+        }).then(({shows, next}) => {
+           
+            for(x = 0;x < shows.length;x++){
+                if(shows[x].nextAiringEpisode != null)
+                this.show.push(shows[x]);
+               // console.log(shows[x].title.romaji);
+              }
+            console.log(next);
+            
+               
+            
+           // if(next){
+          //      this.show += next;    
+          //  }
+            //console.log(shows);     
+          });
+
           console.log(this.show[34]);
           var x = 0;
           //this.show.length
+          this.show.sort(function(a, b){return a.nextAiringEpisode.airingAt  - b.nextAiringEpisode.airingAt});
           for(x = 0;x < this.show.length;x++){
            
               if (this.show[x].nextAiringEpisode != null){
@@ -116,8 +114,8 @@ class ScheduleHelper{
                
                 console.log(this.show[x].nextAiringEpisode.timeUntilAiring);
                 
-                if((this.airDate.getDate() == this.date.getDate() && this.airDate.getMonth() == this.date.getMonth()) ){//|| this.show[x].nextAiringEpisode.timeUntilAiring > 518400
-                    console.log(this.show[x])
+                if((this.airDate.getDate() == this.date.getDate() && this.airDate.getMonth() == this.date.getMonth()) || this.show[x].nextAiringEpisode.timeUntilAiring > 518400 ){//|| 
+                    console.log(this.show[x]);
                     this.slid.push(this.show[x].id); 
                    
                 }
@@ -134,11 +132,15 @@ class ScheduleHelper{
 
           
          
-
+          
 
     }
 
     getList(){
+        
+       
+
+       
         return this.slid;
     }
 

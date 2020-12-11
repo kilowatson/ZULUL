@@ -15,9 +15,12 @@
     "discord.js": "^12.4.1",
     "excel-date-to-js": "^1.0.6",
     "jimp": "^0.16.1",
+    "js-levenshtein": "^1.1.6",
     "luxon": "^1.25.0",
     "node-fetch": "^2.6.1",
     "pokedex-promise-v2": "^3.2.0",
-    "unirest": "^0.6.0"
+    "request-promise": "^4.2.6",
+    "unirest": "^0.6.0",
+    "unofficial-jisho-api": "^2.0.12"
   }
 }

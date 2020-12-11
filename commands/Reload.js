@@ -1,5 +1,5 @@
 
-var draw = require("../src/DrawWord.js");
+
 
 
 module.exports = {
@@ -7,8 +7,7 @@ module.exports = {
 	description: 'Reloads a command',
 	args: true,
 	async execute(message, args) {
-		let d = new draw();
-		d.setUp(message);
+		
 		const commandName = args[0].toLowerCase();
 		const command = message.client.commands.get(commandName)
 			|| message.client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));

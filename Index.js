@@ -39,43 +39,6 @@ bot.on('ready', () => {
 
 
     
-    if(commandName == "edit"){
-        const exampleEmbed = new Discord.MessageEmbed()
-	.setColor('#0099ff')
-	.setTitle('Some title')
-	.setURL('https://discord.js.org/')
-	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-	.setDescription('Some description here')
-	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
-	.addFields(
-		{ name: 'Regular field title', value: 'Some value here' },
-		{ name: '\u200B', value: '\u200B' },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-		{ name: 'Inline field title', value: 'Some value here', inline: true },
-	)
-	.addField('Inline field title', 'Some value here', true)
-	.setImage('https://i.imgur.com/wSTFkRM.png')
-	.setTimestamp()
-    .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
-    
-        var x = await message.channel.send(exampleEmbed);
-        exampleEmbed.setTitle("I did");
-        const filter2 = (reaction) => {
-            console.log(reaction.emoji.name === '⬅️' || reaction.emoji.name === '➡️');
-            return reaction.emoji.name === '⬅️' || reaction.emoji.name === '➡️';
-        };
-        x.awaitReactions(filter2,{max: 1, time: 30000, errors: ['time'] })
-        
-        .then(collected  => {
-            x.edit(exampleEmbed)
-         x.react("⬅️");
-         x.react("➡️");
-        })
-        .catch(collected =>{
-            console.log("You got me");
-        })
-        
-    }
    
     //Temporary if, this ends the bot
     if(commandName == "exit"){

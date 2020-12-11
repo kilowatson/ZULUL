@@ -25,7 +25,7 @@ module.exports = {
         while(currentQuestion <= totalQuestions){
 
             let choice = Math.floor(Math.random() * (max - min) ) + min;
-            await pokedex.getPokemonSpeciesByName(choice)
+            await pokedex.getPokemonSpeciesByName(765)
             .then(response =>{
                 name = response.name;
                 for(var u = 0;u < response.flavor_text_entries.length; u++){
@@ -44,6 +44,14 @@ module.exports = {
             .catch(error =>{
                 console.log(error);
             });
+            var regexp = new RegExp(name, "gi");
+            var replace = "";
+
+            for(var c = 0; c < name.length;c++){
+                replace += "X";
+            }
+            data = data.replace(regexp, replace);
+
 
             const question = new Discord.MessageEmbed()
             .setColor("#aaaaaa")

@@ -2,13 +2,15 @@
 //https://imgur.com/4fglvfb       bj
 //
 const Discord = require('discord.js');
-
+const fetch = require('node-fetch');
 module.exports = {
     name: 'forsen',
 	description: 'FORSAAAAAAAAAN',
 	async execute(message, args) {
         let link;
         let lost = false;
+        const YTAPI_KEY = "";
+        const channelID = "UCoqDr5RdFOlomTQI2tkaDOA";
         if(args.length == 0){
             
             message.channel.send("https://cdn.mos.cms.futurecdn.net/58b85585972e0f04b20e1f31ac5e6c75-970-80.jpg.webp");
@@ -46,7 +48,17 @@ module.exports = {
             case "8":
                 link = "https://i.redd.it/wuno4exglp421.png";
                 break;
-            default:
+            case "youtube":
+                lost = true;
+                let r = await fetch("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=" + channelID + "&maxResults=1&order=date&type=video&key="+ YTAPI_KEY)
+                .then(res => res.json());
+                
+               
+               
+                message.channel.send("https://www.youtube.com/watch?v="+r.items[0].id.videoId);
+                
+                break;
+                default:
                 return;
 
               // code block
