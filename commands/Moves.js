@@ -1,30 +1,39 @@
 var Pokedex = require('pokedex-promise-v2');
 const Discord = require('discord.js');
+const LeaderBoard = require("../src/LeaderBoard.js");
+const Draw = require("../src/Draw.js");
 
 module.exports = {
     name: "moves",
     description: "Starts a quiz based on pokemon moves",
-    aliases: ["pokemoves", "abilities", "ability", "move"],
+    aliases: ["pokemoves", "abilities", "ability", "move", "mv"],
     async execute(message, args) {
         //By gen
         //By type
 
         var pokedex = new Pokedex();
         var totalQuestions = 5;
-        var questions = [];
+       
         var max;
         var min;
-
+        var response;
         var types = ["", "normal", "fighting", "flying", "poison", "ground", "rock", "bug", "ghost", "steel", "fire", "water",
          "grass", "electric", "psychic", "ice", "dragon", "dark", "fairy"];
         if(args.length == 0){
             min = 1;
-            max = 826;
+            max = 827;
 
             //Generates the moves
-            for(var x = 0; x < totalQuestions;x++){
-                questions.push(Math.floor(Math.random() * (max - min) ) + min);
+            let set = false;
+            while(!set){
+                response = await pokedex.getMoveByName(Math.floor(Math.random() * (max - min) ) + min);
+                console.log(response);
+                if(response.flavor_text_entries != undefined && response.flavor_text_entries != null){
+                    set = true;
+                }
             }
+            
+            
 
             
 
@@ -44,7 +53,7 @@ module.exports = {
                     
                }
                min = 0;
-               max = response.moves.length - 1;
+               max = response.moves.length;
              
             })
             .catch(function(error) {
@@ -52,12 +61,16 @@ module.exports = {
             });
             
             //Generates the moves
-            for(var x = 0; x < totalQuestions;x++){
-                console.log(Math.floor(Math.random() * (max - min) ) + min);
-                questions.push(names[Math.floor(Math.random() * (max - min) ) + min]);
+            let set = false;
+            while(!set){
+                response = await pokedex.getMoveByName(names[Math.floor(Math.random() * (max - min) ) + min]);
+                if(response.flavor_text_entries != undefined && response.flavor_text_entries != null){
+                    set = true;
+                }
             }
-            console.log("length:" + questions.length);
-            console.log(questions[2]);
+               
+            
+            
 
 
          }
@@ -69,12 +82,18 @@ module.exports = {
          ["unova", "5", "V"], ["kalos","5", "VI"], ["alola", "6", "VII"], ["galar","7", "VIII"], ["all"]]
         .findIndex(x => x.some(answer => answer.toLowerCase() === args[0].toLowerCase()));
 
-            let max = genID[region][1];
+            let max = genID[region][1] + 1;
             let min = genID[region][0];
 
-            for(var x = 0; x < totalQuestions;x++){
-                questions.push(Math.floor(Math.random() * (max - min) ) + min);
+            let set = false;
+            while(!set){
+                response = await pokedex.getMoveByName(Math.floor(Math.random() * (max - min) ) + min);
+                if(response.flavor_text_entries != undefined && response.flavor_text_entries != null){
+                    set = true;
+                }
             }
+              
+            
 
          }
 
@@ -90,20 +109,43 @@ module.exports = {
         var text;
         var accuracy;
         var pp;
-        var currentQuestion = 1;
+        var power;
+        var category;
+         var data = [];
 
-        while(currentQuestion != totalQuestions){
+      
 
         
-
-        await pokedex.getMoveByName(questions[currentQuestion-1])
-        .then(function(response) {
-          answer = response.name;
+    
+         for(var u = 0;u < response.names.length; u++){
+            if(response.names[u].language.name == "en" ){
+                //&& response.flavor_text_entries[u].version.name == "k"
+                answer = response.names[u].name;
+                break;
+                
+            }
+            
+            }
+      
+         
           type = response.type.name;
           text = response.flavor_text_entries[0].flavor_text;
-          accuracy = response.accuracy;
+          if(response.accuracy == null){
+            accuracy = "-";
+          }
+          else{
+            accuracy = response.accuracy;
+          }
+          if(response.power == null){
+            power = "-";
+          }
+          else{
+            power = response.power;
+          }
+          
           pp = response.pp;
-
+         
+            category = response.damage_class.name;
           console.log(answer);
         console.log(type);
         console.log(accuracy);
@@ -113,23 +155,29 @@ module.exports = {
           for(var u = 0;u < response.flavor_text_entries.length; u++){
             if(response.flavor_text_entries[u].language.name == "en" ){
                 //&& response.flavor_text_entries[u].version.name == "k"
-                data = response.flavor_text_entries[u].flavor_text.replace(/\n/g, " ");
-                text = data.replace(/\f/g, " ");
+                data.push(response.flavor_text_entries[u].flavor_text);
+                
             }
             
             }
+            
+            text = data[Math.floor(Math.random() * data.length )].replace(/\n/g, " ");
+            text = text.replace(/\f/g, " ");
 
-        })
-        .catch(function(error) {
-          console.log('There was an ERROR: ', error);
-        });
+            const pokemonMove = {
+                type: type,
+                accuracy: accuracy,
+                description: text,
+                pp: pp,
+                power: power,
+                category: category
+            };
+            var description = new Draw();
+            const file = await description.drawPokemonMoveDescription(pokemonMove);
 
-
-        const question = new Discord.MessageEmbed()
-            .setColor("#aaaaaa")
-            .setDescription(text);
+        
             console.log(answer);
-            message.channel.send(question);
+            message.channel.send(file);
 
             const filter = response => {
                 
@@ -139,21 +187,31 @@ module.exports = {
 
             await message.channel.awaitMessages(filter, { max: 1, time: 30000, errors: ['time'] })
                     .then(collected => {
-                        message.channel.send("That is correct");
+                        var leaderboard = new LeaderBoard("Move", message.guild);
+                        leaderboard.addPoints(collected.first().author.id, 500);
+                        leaderboard.adjustLeaderBoard();
+                        const correct =  new Discord.MessageEmbed()
+						.setTitle(answer[0].toUpperCase() + answer.slice(1))
+						.setColor("#bd18c0")
+						.setDescription(collected.first().author.tag    + " got the answer\n 500 points gained\nAbsolute nerd.")
+						
+
+                        message.channel.send(correct);
+                        
                         
                     })
 
                     .catch(collected => {
-                        message.channel.send("Unlucky");
+                        message.channel.send(answer[0].toUpperCase() + answer.slice(1));
                     });
 
 
 
         
 
-        currentQuestion++;
+        
     }
-}
+
 
 
 

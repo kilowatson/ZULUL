@@ -70,6 +70,9 @@ class Kanji{
     getKanji(){
         return this.kanji;
     }
+    getNumberofKanji(){
+        return this.lines.length-1;
+    }
     
 
     

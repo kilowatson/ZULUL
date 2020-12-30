@@ -26,12 +26,13 @@ class AnimeDescription{
 
     }
     getHint(){
-        var hint = this.question.split("$")[1][0];
+        let answer = this.question.split("$")[1];
+        var hint =  answer[0];
         for(let x = 1; x < this.question.split("$")[1].length; x++){
-            if(this.question.split("$")[1][x] == " "){
+            if(answer[x] == " "){
                 x++;
                 console.log(hint);
-                hint += " " + this.question.split("$")[1][x];
+                hint += " " + answer[x];
 
             }
             else

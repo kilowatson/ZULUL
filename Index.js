@@ -1,12 +1,15 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const axios = require("axios");
-const token = '';
-const prefix = "A.";
+
+
+const { prefix, token } = require('./config.json');
 const fetch = require('node-fetch');
 const { Client, MessageAttachment } = require('discord.js');
 fs = require('fs');
 bot.commands = new Discord.Collection();
+const cooldowns = new Discord.Collection();
+
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 
@@ -21,7 +24,9 @@ for (const file of commandFiles) {
 //Bot booting up message
 bot.on('ready', () => {
     
-	console.log('This bot is online!');
+    console.log('This bot is online!');
+   
+    
 });
 
 
@@ -53,7 +58,30 @@ bot.on('ready', () => {
         
         if (!command) return;
     //Checks if command is valid
+
+    //Command stuff
+    if (!cooldowns.has(command.name)) {
+        cooldowns.set(command.name, new Discord.Collection());
+    }
     
+    const now = Date.now();
+    const timestamps = cooldowns.get(command.name);
+    const cooldownAmount = (command.cooldown || 3) * 1000;
+    
+    if (timestamps.has(message.author.id)) {
+        // ...
+        if (timestamps.has(message.author.id)) {
+            const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
+        
+            if (now < expirationTime) {
+                const timeLeft = (expirationTime - now) / 1000;
+                return message.reply(`please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${command.name}\` command.`);
+            }
+        }
+    }
+    timestamps.set(message.author.id, now);
+	setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+    //Command stuff
     
     //Attempts to run the exectue function of the command
 try {

@@ -7,7 +7,7 @@ var LeaderBoard = require("../src/LeaderBoard.js");
 module.exports = {
     name: "anime",
     description: "Starts a quiz based on pokemon moves",
-    aliases: [],
+    cooldown: 20,
     async execute(message, args) {
         var quiz = new AnimeDescription();
         var leaderboard = new LeaderBoard("Anime", message.guild);

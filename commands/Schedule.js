@@ -39,19 +39,22 @@ module.exports = {
         for(i = 0; i < list.length; i++){
             console.log(list[i]);
             prevname = name;
-            name = [(i+1).toString(), scheduler.getName(list[i])].join(" <:girl:778478477337821186>  ") + "\n\n"
-            names +=  name;
-            console.log(name.length);
-            if(70 < prevname.length){
-                broadcastTime +=  scheduler.getBroadcastTime(list[i], false) + "\n\n\n";
-            upcomingEpisode += scheduler.getCurrentEpisode(list[i]) + "\n\n\n"; 
-                
+            var n = scheduler.getName(list[i])
+            name = (i+1).toString() +"."+ n.slice(0,30);
+            if(n.length > 31){
+                name += "...";
             }
-            else{
+
+            names +=   name + "\n\n";
+
+
+
+
+            
                 broadcastTime += scheduler.getBroadcastTime(list[i], false) + "\n\n";
             upcomingEpisode += scheduler.getCurrentEpisode(list[i]) + "\n\n"; 
 
-            }
+            
             
         }
         console.log(names);
@@ -65,7 +68,7 @@ module.exports = {
         )
         .setFooter("Enter a number to see detailed view");
         var k = await message.channel.send(AssignedSchedule);
-            console.log(k);
+            
         
         const filter = response => {
 			if(response.content.toLowerCase() == "n" || (parseInt(response.content) > 0 && parseInt(response.content) < list.length + 1)){
@@ -142,6 +145,7 @@ module.exports = {
             .setDescription(scheduler.getDescription(id)) 
             .setImage(scheduler.getCoverImageURL(id))
             .setFooter("Episodes : " + ((parseInt(scheduler.getCurrentEpisode(id)) - 1)).toString() + "/" + scheduler.getFinalEpisode(id) + 
+            
             scheduler.getGenre(id) +
             "\nStudio: " + scheduler.getStudioName(id) + "\nProducers: " + scheduler.getProducerName(id) + "\nAiring Date: " + scheduler.getBroadcastTime(id, true));
               await prev.edit(Detail);
@@ -156,7 +160,7 @@ module.exports = {
                 
                 console.log(`Collected ${collected.size} items`);
             });
-            console.log("do I work");
+           
             
         }
 

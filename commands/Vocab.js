@@ -9,34 +9,41 @@ module.exports = {
     aliases: ['vocabulary', 'v'],
     async execute(message, args) {
         
-        //All initial declarations
-        var vocab = new Vocabulary("5");
+		//All initial declarations
+		var level = "5";
+        var vocab = new Vocabulary(level);
         var wordImage = new WordImage();
         var word;
-         
+        
         var leaderboard = new LeaderBoard("Vocabulary", message.guild);
         var  answers;
         var timeOut = 15000;
-        var title = "Quiz";
+        var title = "JLPT N"+level+" Vocab Quiz";
         var points = 200;
         var currentQuestion = 0;
-        var questions = 5;
-        var prematureEnd = false;
+        var questions = 20;
+        var set = false;
 
         let start =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("You have " + timeOut +
-						 " seconds to answer each question./nEnter 'n' to skip a question\nEnter 's' to stop the quiz early");
+						.setDescription("There are "+ questions +" questions, you have " + (timeOut / 1000)+
+						 " seconds to answer each question.\nEnter 'n' to skip a question\nEnter 's' to stop the quiz early");
 
         message.channel.send(start);
         
 		while(currentQuestion < questions){
-		
-            word = vocab.getWord();
 
-            answers = await vocab.getAnswer();
-		
+			while(!set){
+            word = vocab.getWord();
+			
+			answers = await vocab.getAnswer();
+			if(answers != ""){
+				set = true;
+				}
+			}
+			set = false;
+			
             var exampleSentence = await vocab.getExampleSentence();
 
             var reading = vocab.getReading();
@@ -87,7 +94,13 @@ module.exports = {
 						const skip =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Question skipped!\nCorrect answers\n" + answers);
+						.setDescription("Question skipped!")
+						.addFields({name: "Correct Answers", value: answers, inline: true},
+						{name: "Example Sentence", value: exampleSentence[0] + "\n" +
+						exampleSentence[1] +  "\n"+ 
+						exampleSentence[2]},
+                        {name: "Word", value: word, inline: true},
+                        {name: "Reading", value: reading, inline: true});
 						message.channel.send(skip);
 						
 					}
@@ -98,13 +111,17 @@ module.exports = {
 						const stop =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Correct answers\n" + answers);
-						
+						.setDescription("Quiz Stopped")
+						.addFields({name: "Correct Answers", value: answers, inline: true},
+						{name: "Example Sentence", value: exampleSentence[0] + "\n" +
+						exampleSentence[1] +  "\n"+ 
+						exampleSentence[2]},
+                        {name: "Word", value: word, inline: true},
+                        {name: "Reading", value: reading, inline: true});
 						message.channel.send(stop);
-						if(currentQuestion == 0)
-							return;
+						
 						currentQuestion = questions;//Ends the while loop
-						prematureEnd = true;
+						
 					}
                     else{
 						
@@ -120,9 +137,11 @@ module.exports = {
 						.setDescription( op + ' got the correct answer!')
 						.addFields({name: "Correct Answers", value: answers, inline: true},
                         {name: "Points", value: "You earned " + points + " points", inline: true},
-                        {name: "Example Sentence", value: exampleSentence[0]},
-                        {name: "Word", value: word},
-                        {name: "Reading", value: reading});
+						{name: "Example Sentence", value: exampleSentence[0] + "\n" +
+						exampleSentence[1] +  "\n"+ 
+						exampleSentence[2]},
+                        {name: "Word", value: word, inline: true},
+                        {name: "Reading", value: reading, inline: true});
 						message.channel.send(correct);
 						
 					}
@@ -135,7 +154,13 @@ module.exports = {
 					const timeout =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Times up!\nCorrect answers\n" + answers);
+						.setDescription("Time's up!")
+						.addFields({name: "Correct Answers", value: answers, inline: true},
+						{name: "Example Sentence", value: exampleSentence[0] + "\n" +
+						exampleSentence[1] +  "\n"+ 
+						exampleSentence[2]},
+                        {name: "Word", value: word, inline: true},
+                        {name: "Reading", value: reading, inline: true});;
 					
                     message.channel.send(timeout);
 				});
@@ -143,19 +168,19 @@ module.exports = {
 			currentQuestion++;
 		}
 
-		console.log(currentQuestion);
-		if(currentQuestion == 1 && prematureEnd)
-			return 1;
-		var l = leaderboard.getWinner();
+		
+		
+		var winner = leaderboard.getWinner();
 		
 		
 		const end =  new Discord.MessageEmbed()
 						.setTitle(title + ' Ended')
 						.setColor("#bd18c0")
-						.addFields({name : "Winner", value : l});
+						.addFields({name : "Winner", value : winner[0], inline: true},
+						{name : "Points", value : winner[1], inline: true});
 
 						
-						message.channel.send(end);
+						await message.channel.send(end);
 		leaderboard.adjustLeaderBoard();
 	},
 

@@ -13,7 +13,6 @@ module.exports = {
                 .then(res => res.json());
 
             let verse = new MessageEmbed()
-              
                 .setColor("#886843")
                 .setDescription(random.Text)
                 .setFooter("Quran: Chapter " + random.Chapter + ", Verse " + random.Id);
@@ -27,9 +26,9 @@ module.exports = {
                 
                 
                 let verse = new MessageEmbed()
-                .setTitle(daily.result.text)
+                
                 .setColor("#886843")
-                .setDescription("\n\n" + daily.result.translate.text)
+                .setDescription(daily.result.text + "\n\n" + daily.result.translate.text)
                 .setFooter("Quran: Chapter " + daily.result.sura + ", Verse " + daily.result.aya);
                 
         

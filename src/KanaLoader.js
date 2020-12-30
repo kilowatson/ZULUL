@@ -44,6 +44,9 @@ class KanaLoader{
     getCharacter(){
         return this.character;
     }
+    getNumberofKana(){
+        return this.file.length-1;
+    }
 
 
 }module.exports = KanaLoader;

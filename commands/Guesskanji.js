@@ -3,11 +3,15 @@ const Discord = require('discord.js');
 var kanji = require("../src/Kanji.js");
 var Jimp = require('jimp');
 var LeaderBoard = require("../src/LeaderBoard.js");
+const Shuffle = require('../src/RandomNumber.js');
 
 
 module.exports = {
 	name: 'kanji',
 	description: 'Starts kanji quiz!',
+	aliases: ['kj'],
+	usage: '[Number of questions] [Number representing difficulty] [Time in seconds for questions]',
+	examples: ['A.kanji 20 6 50', 'A.kanji 20', 'A.kanji 20 2'],
 	async execute(message, args) {
 		quiz = new kanji();
 		var questions = 5;
@@ -35,7 +39,8 @@ module.exports = {
 		var currentQuestion = 0;//
 		var leaderboard = new LeaderBoard("Kanji", message.guild);
 		
-
+		const questionList = Shuffle.shuffle(quiz.getNumberofKanji(),0, questions);
+		console.log(questionList);
 
 		let start =  new Discord.MessageEmbed()
 						.setTitle(title)
@@ -45,13 +50,14 @@ module.exports = {
 
 		
 		while(currentQuestion < questions){
-		var c = Math.floor(Math.random() * (60 - 1 + 1) + 1);
+		
 		
 
+			console.log(questionList[currentQuestion]);
+		quiz.setKanji(questionList[currentQuestion]);
 		
-		quiz.setKanji(c);
 		var ans = quiz.getAnswer();
-
+		console.log(quiz.getAnswer());
 		//Filter for quiz
 		const filter = response => {
 			if(response.content.toLowerCase() == "n" || response.content.toLowerCase() == "s"){
@@ -93,7 +99,7 @@ module.exports = {
 		
 		await  message.channel.send(exampleEmbed);
 		
-		var prematureEnd = false;
+
 
 		await message.channel.awaitMessages(filter, { max: 1, time: timeOut, errors: ['time'] })
                 .then(collected => {
@@ -103,7 +109,9 @@ module.exports = {
 						const skip =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Question skipped!\nCorrect answers\n" + ans);
+						.setDescription("Question skipped!")
+						.addFields({name: "Kanji", value: quiz.getKanji()},
+						{name: "Correct Answers", value: ans});;
 						message.channel.send(skip);
 						
 					}
@@ -114,13 +122,14 @@ module.exports = {
 						const stop =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Correct answers\n" + ans);
+						.setDescription("Quiz ended!")
+						.addFields({name: "Kanji", value: quiz.getKanji()},
+						{name: "Correct Answers", value: ans});
 						
 						message.channel.send(stop);
-						if(currentQuestion == 0)
-							return;
+						
 						currentQuestion = questions;//Ends the while loop
-						prematureEnd = true;
+						
 					}
                     else{
 						console.log("Guessed correctly");
@@ -149,7 +158,9 @@ module.exports = {
 					const timeout =  new Discord.MessageEmbed()
 						.setTitle(title)
 						.setColor("#ec1c24")
-						.setDescription("Times up!\nCorrect answers\n" + ans);
+						.setDescription("Times up!")
+						.addFields({name: "Kanji", value: quiz.getKanji()},
+						{name: "Correct Answers", value: ans});
 					
                     message.channel.send(timeout);
 				});
@@ -157,23 +168,18 @@ module.exports = {
 			currentQuestion++;
 		}
 
-		console.log(currentQuestion);
-		if(currentQuestion == 1 && prematureEnd){
+		
 			
-			return 1;
-		}
-			
-		var l = leaderboard.getWinner();
+		var winner = leaderboard.getWinner();
 		
 		
 		const end =  new Discord.MessageEmbed()
 						.setTitle(title + ' Ended')
 						.setColor("#bd18c0")
-						.setDescription("dfdf")
-						.addFields({name : "Winner", value : l});
-
+						.addFields({name : "Winner", value : winner[0], inline: true},
+						{name : "Points", value : winner[1], inline: true});
 						
-						message.channel.send(end);
+						await message.channel.send(end);
 		leaderboard.adjustLeaderBoard();
 	},
 };
